@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8EE79333287F706800A55BC1 /* SeeSo.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E921A23287F366C00ECCC14 /* SeeSo.xcframework */; };
+		8EE79334287F706800A55BC1 /* SeeSo.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8E921A23287F366C00ECCC14 /* SeeSo.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D32578CB24937B7E0073F5A6 /* CalibrationPointView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32578CA24937B7E0073F5A6 /* CalibrationPointView.swift */; };
 		D32578D824970D6D0073F5A6 /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32578D724970D6D0073F5A6 /* RadioButton.swift */; };
 		D33B692524931FBE00137492 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33B692424931FBE00137492 /* AppDelegate.swift */; };
@@ -26,6 +28,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				8EE79334287F706800A55BC1 /* SeeSo.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -33,6 +36,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8E921A23287F366C00ECCC14 /* SeeSo.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SeeSo.xcframework; path = ../../../../../Downloads/SeeSo.xcframework; sourceTree = "<group>"; };
 		D32578CA24937B7E0073F5A6 /* CalibrationPointView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalibrationPointView.swift; sourceTree = "<group>"; };
 		D32578D724970D6D0073F5A6 /* RadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
 		D33B692124931FBE00137492 /* SeeSoSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeeSoSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EE79333287F706800A55BC1 /* SeeSo.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +106,7 @@
 		D33B693F2493535200137492 /* views */ = {
 			isa = PBXGroup;
 			children = (
+				8E921A23287F366C00ECCC14 /* SeeSo.xcframework */,
 				D33B693D2493532B00137492 /* GazePointView.swift */,
 				D32578CA24937B7E0073F5A6 /* CalibrationPointView.swift */,
 				D3F882E5265C923E0013B273 /* UserStatusLabel.swift */,
@@ -330,8 +336,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = BMGDL6J6CA;
+				DEVELOPMENT_TEAM = W6VY56K8M4;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SeeSoSample",
@@ -345,8 +352,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = camp.visual.ios.sample.SeeSoSample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tugoflaherty.seesosample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				STRIP_STYLE = all;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -357,8 +365,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = BMGDL6J6CA;
+				DEVELOPMENT_TEAM = W6VY56K8M4;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SeeSoSample",
@@ -372,8 +381,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = camp.visual.ios.sample.SeeSoSample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tugoflaherty.seesosample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				STRIP_STYLE = all;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

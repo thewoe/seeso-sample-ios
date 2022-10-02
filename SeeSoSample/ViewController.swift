@@ -12,7 +12,7 @@ import SeeSo
 
 class ViewController: UIViewController {
     
-    let licenseKey : String = "Input your key." // Please enter the key value for development issued by the SeeSo.io
+    let licenseKey : String = "dev_3k696p039vb0kwghofume15k11n8i8s98fmqpdg6" // Please enter the key value for development issued by the SeeSo.io
     
     //
     var frame : Int = 0
